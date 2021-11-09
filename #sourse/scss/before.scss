@@ -1,0 +1,148 @@
+//ШРИФТ=====================================================================
+
+$font-family: "CerebriSansPro", serif;
+$font-size: 16px;
+
+//ПІДКЛЮЧЕНІ ШРИФТИ=====================================================================
+// GOOGLE FONTS (&display=swap)=====================================================================
+
+// /GOOGLE FONTS=====================================================================
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
+
+@font-face {
+	font-family: "CerebriSansPro";
+	src: url("../fonts/CerebriSansPro-Bold.eot");
+	src: local("☺"), url("../fonts/CerebriSansPro-Bold.woff") format("woff"),
+		url("../fonts/CerebriSansPro-Bold.ttf") format("truetype"), url("../fonts/CerebriSansPro-Bold.svg") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CerebriSansPro";
+	src: url("../fonts/CerebriSansPro-ExtraBold.eot");
+	src: local("☺"), url("../fonts/CerebriSansPro-ExtraBold.woff") format("woff"),
+		url("../fonts/CerebriSansPro-ExtraBold.ttf") format("truetype"),
+		url("../fonts/CerebriSansPro-ExtraBold.svg") format("svg");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CerebriSansPro";
+	src: url("../fonts/CerebriSansPro-Heavy.eot");
+	src: local("☺"), url("../fonts/CerebriSansPro-Heavy.woff") format("woff"),
+		url("../fonts/CerebriSansPro-Heavy.ttf") format("truetype"),
+		url("../fonts/CerebriSansPro-Heavy.svg") format("svg");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CerebriSansPro";
+	src: url("../fonts/CerebriSansPro-Medium.eot");
+	src: local("☺"), url("../fonts/CerebriSansPro-Medium.woff") format("woff"),
+		url("../fonts/CerebriSansPro-Medium.ttf") format("truetype"),
+		url("../fonts/CerebriSansPro-Medium.svg") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CerebriSansPro";
+	src: url("../fonts/CerebriSansPro-Regular.eot");
+	src: local("☺"), url("../fonts/CerebriSansPro-Regular.woff") format("woff"),
+		url("../fonts/CerebriSansPro-Regular.ttf") format("truetype"),
+		url("../fonts/CerebriSansPro-Regular.svg") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "CerebriSansPro";
+	src: url("../fonts/CerebriSansPro-SemiBold.eot");
+	src: local("☺"), url("../fonts/CerebriSansPro-SemiBold.woff") format("woff"),
+		url("../fonts/CerebriSansPro-SemiBold.ttf") format("truetype"),
+		url("../fonts/CerebriSansPro-SemiBold.svg") format("svg");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "icons";
+	src: url("../fonts/icons.eot?h7quug");
+	src: url("../fonts/icons.eot?h7quug#iefix") format("embedded-opentype"),
+		url("../fonts/icons.ttf?h7quug") format("truetype"), url("../fonts/icons.woff?h7quug") format("woff"),
+		url("../fonts/icons.svg?h7quug#icons") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="_icon-"]::before,
+[class*=" _icon-"]::before {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icons" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+._icon-facebook:before {
+	content: "\e900";
+}
+._icon-tel:before {
+	content: "\e901";
+}
+._icon-viber:before {
+	content: "\e902";
+}
+._icon-account:before {
+	content: "\e903";
+}
+._icon-calendar:before {
+	content: "\e904";
+}
+._icon-heart:before {
+	content: "\e905";
+}
+._icon-mail:before {
+	content: "\e906";
+}
+._icon-bag:before {
+	content: "\e907";
+}
+._icon-message:before {
+	content: "\e908";
+}
+._icon-linkedin:before {
+	content: "\e909";
+}
+._icon-twitter:before {
+	content: "\e90a";
+}
+._icon-arrow:before {
+	content: "\e90b";
+}
+
+//ПІДКЛЮЧЕНІ ШРИФТИ=====================================================================
+
+//ШРИФТ=====================================================================
+//CONTAINER=====================================================================
+$container-width: 1140px;
+$container-padding: 15px;
+//CONTAINER=====================================================================
+//VARIABLES=====================================================================
+$black: #2a2a2a;
+$green: #7fad39;
+$lightgrey: #f5f5f5;
+$grey: #999999;
+$darkgrey: #757575;
+//VARIABLES=====================================================================
